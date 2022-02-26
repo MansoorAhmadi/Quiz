@@ -43,6 +43,36 @@ CHANNELS -
             		*<version>4.13.2</version>
             		*<scope>test</scope>
 
+		*HIBERNATE
+            		*<groupId>org.hibernate</groupId>
+            		*<artifactId>hibernate-core</artifactId>
+            		*<version>5.6.5.Final</version>
+        
+		*SPRING-CONTEXT
+			*<groupId>org.springframework</groupId>
+            		*<artifactId>spring-context</artifactId>
+            		*<version>5.3.15</version>
+
+		*SPRING-ORM
+			*<groupId>org.springframework</groupId>
+            		*<artifactId>spring-orm</artifactId>
+            		*<version>5.3.15</version>
+		
+		*LOG4J2-CORE
+			*<groupId>org.apache.logging.log4j</groupId>
+            		*<artifactId>log4j-core</artifactId>
+            		*<version>2.17.1</version>
+
+		*LOG4J2-API
+			*<groupId>org.apache.logging.log4j</groupId>
+            		*<artifactId>log4j-api</artifactId>
+            		*<version>2.17.1</version>
+
+		*JAVAX-INJECT
+			*<groupId>javax.inject</groupId>
+            		*<artifactId>javax.inject</artifactId>
+            		*<version>1</version>
+
 
 	1.4: Maven Dependency TREE - we can see the of dependencies Diagram and TREE
 		
