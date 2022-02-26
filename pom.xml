@@ -16,6 +16,7 @@
         <junit.version>4.13.2</junit.version>
         <hibernate.version>5.6.5.Final</hibernate.version>
         <spring.context>5.3.15</spring.context>
+        <spring.test>5.3.15</spring.test>
         <spring.orm>5.3.15</spring.orm>
         <log4j.core>2.17.1</log4j.core>
         <log4j.api>2.17.1</log4j.api>
@@ -79,6 +80,15 @@
             <groupId>javax.inject</groupId>
             <artifactId>javax.inject</artifactId>
             <version>1</version>
+        </dependency>
+
+<!--        SPRING TEST TO RUN JUNIT TESTS & APPLICATION CONTEXT.XML LOADING-->
+<!--        @RunWith(SpringJunit4ClassRunner.class)-->
+<!--        @ContextConfiguration("/applicationContext.xml")-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.test}</version>
         </dependency>
 
     </dependencies>
