@@ -1,6 +1,10 @@
 # Quiz PROJECT
 
 CHANNELS - 
+	*Tools
+	*Internal classes - source code - model - services - repository
+	*External classes - Spring web - controller - dto
+	
 
 
 1: IDE
@@ -12,7 +16,13 @@ CHANNELS -
 
 1: MAVEN PROJECT
 	
-	1.1: We create an empty Maven project and define our domain and project name
+	1.1: Maven is a project builder and dependency manager. It has a default Life-Cycle and plugin
+
+		*Life-Cycle -> INSTALL
+		*Install will provide the jar file inside the target folder of your current project.
+
+
+	1.2: We create an empty Maven project and define our domain and project name
 
 		*POM.xml 
 			*<groupId>org.bluebird</groupId>
@@ -34,6 +44,15 @@ CHANNELS -
             		*<scope>test</scope>
 
 
+
+CHANNEL #1
+
+1: Model
+
+	1.1 - Quiz-Model - we define our quiz classes
+
+		*
+	
 
 
 
