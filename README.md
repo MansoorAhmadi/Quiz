@@ -18,11 +18,22 @@ CHANNELS -
 	
 	1.1: Maven is a project builder and dependency manager. It has a default Life-Cycle and plugin
 
+	1.2: Difference between Maven Dependency & Dependency Injection:
+
+		*Dependency-Injection: It is a fundamental aspect of the Spring framework, through which the Spring container “injects” objects into other objects or “dependencies”
+
+		Maven-Dependency: Maven is a software management tool, use to manage information, dependencies and other things for a project. It has two mechanisms to add the dependencies of other modules/project
+
+
+	1.3: Maven Life-Cycle - Maven Install is like an integrated test, where it tests all the test cases and produces the jar file inside the target folder of your current project.
+
 		*Life-Cycle -> INSTALL
-		*Install will provide the jar file inside the target folder of your current project.
 
 
-	1.2: We create an empty Maven project and define our domain and project name
+
+2: POM.xml
+
+	2.1: We create an empty Maven project and define our domain and project name
 
 		*POM.xml 
 			*<groupId>org.bluebird</groupId>
@@ -103,6 +114,13 @@ CHANNEL #1
 	
 
 
+
+x: Test
+	
+	x.x: To test our model classes and logger class
+
+		*ModelTest.java		//RECURSION test case
+		*LoggerTest.java		//LOGGER.INFO()
 
 
 
