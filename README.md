@@ -44,6 +44,24 @@ CHANNELS -
             		*<scope>test</scope>
 
 
+	1.4: Maven Dependency TREE - we can see the of dependencies Diagram and TREE
+		
+		1.4.1: Diagram
+
+		*Quiz		//Root Module - Right click
+		*Maven		//Under Maven option - choose to show diagram
+		*Libraries	//click on the libraries to show the dependencies
+
+
+
+		1.4.2: Tree
+	
+		*Maven			//on the right-side of IntelliJ  
+		*Execute Maven Goal	//click on m option which is execute maven goal
+		*mvn dependency:tree	//type the command. Maven will build & show all
+
+		*Maven Dependency Diagram & Tree //PNG - SCREENSHOT ATTACHED
+
 
 CHANNEL #1
 

@@ -11,6 +11,8 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+
+
     </properties>
 
     <dependencies>
@@ -65,7 +67,7 @@
             <version>2.17.1</version>
         </dependency>
 
-<!--        JAVAX INJECT-->
+<!--        JAVAX INJECT - DEPENDENCY INJECTION-->
         <dependency>
             <groupId>javax.inject</groupId>
             <artifactId>javax.inject</artifactId>
