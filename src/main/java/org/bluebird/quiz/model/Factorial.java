@@ -2,7 +2,11 @@ package org.bluebird.quiz.model;
 
 public class Factorial {
 
-    public void calculateFactorial(int number){
-        for ()
+    public int calculateFactorial(int number){
+        int result = 1;
+        for (int i=1; i<=number; i++){
+            result *= i;
+        }
+        return result;
     }
 }
