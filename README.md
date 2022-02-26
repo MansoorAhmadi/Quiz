@@ -30,7 +30,7 @@ CHANNELS -
     			*<version>1.0-SNAPSHOT</version>
 
 
-	1.2: We add some dependencies to connect to our database & test model classes
+	1.3: We add some dependencies to connect to our database & test model classes
 
 		*POSTGRESQL
             		*<groupId>org.postgresql</groupId>
