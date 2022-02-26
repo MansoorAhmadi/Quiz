@@ -13,12 +13,21 @@
         <constructor-arg><value>select * from Questions</value></constructor-arg>
     </bean>
 
+    <bean id="createTable" class="java.lang.String">
+        <constructor-arg><value>CREATE TABLE quiz (
+            id int PRIMARY KEY,
+            name varchar(100) NOT NULL)</value></constructor-arg>
+    </bean>
+
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
         <property name="driverClassName" value="org.postgresql.Driver" />
-        <property name="url" value="jdbc:postgresql://localhost:5432/Netflix" />
+        <property name="url" value="jdbc:postgresql://localhost:5432/quiz" />
         <property name="username" value="postgres" />
-        <property name="password" value="jasmine" />
+        <property name="password" value="postgres" />
+    </bean>
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <constructor-arg ref="dataSource"/>
     </bean>
 
 
