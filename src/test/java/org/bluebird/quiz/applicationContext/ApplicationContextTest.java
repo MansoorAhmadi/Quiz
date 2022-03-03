@@ -49,5 +49,19 @@ public class ApplicationContextTest {
         Assert.assertNotNull(ds);
     }
 
+    @Test
+    public void testConnection() throws SQLException {
+        //given
+        Connection connection = ds.getConnection();
+
+        //when
+        String schema = connection.getSchema();
+
+        //then
+        Assert.assertEquals("public", schema);
+    }
+
+
+
 
 }
